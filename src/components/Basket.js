@@ -6,7 +6,7 @@ const Basket = (props) => {
   const totalPrice = itemPrice;
   return (
     <aside className='rowBg col-1'>
-      <h2> Cart Items</h2>
+      <h2>  Cart Items</h2>
       <div>
         {
           cartItems.length === 0 && <div> Cart is Empty</div>
