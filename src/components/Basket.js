@@ -21,7 +21,7 @@ const Basket = (props) => {
   </div>
 
   <div>
-    {elem.qty}*Rs/{elem.price.toFixed(2)}
+    {elem.qty}*₹{elem.price.toFixed(2)}
   </div>
 </div>
           ))
@@ -35,7 +35,7 @@ const Basket = (props) => {
               <b>Total Price</b>
              </div>
              <div>
-              <b>Rs/{totalPrice.toFixed(2)}</b>
+              <b>₹{totalPrice.toFixed(2)}</b>
              </div>
           </div>
           <hr/>

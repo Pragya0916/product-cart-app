@@ -5,7 +5,7 @@ const Product = (props) => {
   return (
     <div>
         <h3>{product.name}</h3>
-        <div>Rs/{product.price}</div>
+        <div>₹{product.price}</div>
         <div>
         <button onClick={()=>onAdd(product)}>Add to Cart</button>
         </div>
